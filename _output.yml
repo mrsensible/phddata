@@ -1,0 +1,9 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">Hyesop Shin PhD Data Catalogue</a></li>
+      after: |
+        <li><a href="https://github.com/mrsensible/phddata" target="blank">Visit Repository for Inquiries</a></li>
+
