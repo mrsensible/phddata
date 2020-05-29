@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 2 Literature | PhD Data Catalogue</title>
+  <title>Chapter 2 Comparison of Spatial Interpolation Methods for the Estimation of Seoul’s Air Pollution | PhD Data Catalogue</title>
   <meta name="description" content="This webpage contains all the open source data used for my doctoral thesis" />
   <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 2 Literature | PhD Data Catalogue" />
+  <meta property="og:title" content="Chapter 2 Comparison of Spatial Interpolation Methods for the Estimation of Seoul’s Air Pollution | PhD Data Catalogue" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 2 Literature | PhD Data Catalogue" />
+  <meta name="twitter:title" content="Chapter 2 Comparison of Spatial Interpolation Methods for the Estimation of Seoul’s Air Pollution | PhD Data Catalogue" />
   
   <meta name="twitter:description" content="This webpage contains all the open source data used for my doctoral thesis" />
   
@@ -71,7 +71,13 @@
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prerequisites</a></li>
 <li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
-<li class="chapter" data-level="2" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>2</b> Literature</a></li>
+<li class="chapter" data-level="2" data-path="study1.html"><a href="study1.html"><i class="fa fa-check"></i><b>2</b> Comparison of Spatial Interpolation Methods for the Estimation of Seoul’s Air Pollution</a><ul>
+<li class="chapter" data-level="2.1" data-path="study1.html"><a href="study1.html#data-list"><i class="fa fa-check"></i><b>2.1</b> Data list</a></li>
+<li class="chapter" data-level="2.2" data-path="study1.html"><a href="study1.html#what-the-data-looks-like-exploration-with-r"><i class="fa fa-check"></i><b>2.2</b> What the data looks like: Exploration with R</a></li>
+<li class="chapter" data-level="2.3" data-path="study1.html"><a href="study1.html#output-univeral-kriging"><i class="fa fa-check"></i><b>2.3</b> Output: Univeral Kriging</a></li>
+<li class="chapter" data-level="2.4" data-path="study1.html"><a href="study1.html#output-generalised-additive-models"><i class="fa fa-check"></i><b>2.4</b> Output: Generalised Additive Models</a></li>
+<li class="chapter" data-level="2.5" data-path="study1.html"><a href="study1.html#summary"><i class="fa fa-check"></i><b>2.5</b> Summary</a></li>
+</ul></li>
 <li class="chapter" data-level="3" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>3</b> Methods</a></li>
 <li class="chapter" data-level="4" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>4</b> Applications</a><ul>
 <li class="chapter" data-level="4.1" data-path="applications.html"><a href="applications.html#example-one"><i class="fa fa-check"></i><b>4.1</b> Example one</a></li>
@@ -99,10 +105,32 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="literature" class="section level1">
-<h1><span class="header-section-number">Chapter 2</span> Literature</h1>
-<p>Here is a review of existing methods.</p>
+<div id="study1" class="section level1">
+<h1><span class="header-section-number">Chapter 2</span> Comparison of Spatial Interpolation Methods for the Estimation of Seoul’s Air Pollution</h1>
+<p><strong>Overview</strong></p>
+<p>Understanding the association between pollution exposure and the deleterious effect on population health is a vital precursor for modelling.
+This chapter initially argues that the comparison amongst methods should not merely conclude with error measurements but should add more information on the difference; secondly argues that finer temporal scale is needed in pollution studies due to human mobility and daily and seasonal dynamics of pollution.
+Hence, this chapter aims to compare spatial interpolation methods that can support population exposure to daily air pollution.
+Seoul was selected as a case study.</p>
+<p>This chapter firstly explores the pollution data in different time sequences and types of monitoring stations.
+Then it compares two spatial interpolation methods, Universal Kriging, GAM, with additional weights on road layers as an effect of roadside pollution fields.
+After the calibration and validation, this chapter finally discusses issues relevant to interpolation methods and health effects.</p>
+<div id="data-list" class="section level2">
+<h2><span class="header-section-number">2.1</span> Data list</h2>
+</div>
+<div id="what-the-data-looks-like-exploration-with-r" class="section level2">
+<h2><span class="header-section-number">2.2</span> What the data looks like: Exploration with R</h2>
+</div>
+<div id="output-univeral-kriging" class="section level2">
+<h2><span class="header-section-number">2.3</span> Output: Univeral Kriging</h2>
+</div>
+<div id="output-generalised-additive-models" class="section level2">
+<h2><span class="header-section-number">2.4</span> Output: Generalised Additive Models</h2>
+</div>
+<div id="summary" class="section level2">
+<h2><span class="header-section-number">2.5</span> Summary</h2>
 
+</div>
 </div>
             </section>
 

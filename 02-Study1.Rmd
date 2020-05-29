@@ -1,3 +1,33 @@
-# Literature
+# Comparison of Spatial Interpolation Methods for the Estimation of Seoul’s Air Pollution {#study1}
+**Overview**
 
-Here is a review of existing methods.
+Understanding the association between pollution exposure and the deleterious effect on population health is a vital precursor for modelling. 
+This chapter initially argues that the comparison amongst methods should not merely conclude with error measurements but should add more information on the difference; secondly argues that finer temporal scale is needed in pollution studies due to human mobility and daily and seasonal dynamics of pollution. 
+Hence, this chapter aims to compare spatial interpolation methods that can support population exposure to daily air pollution. 
+Seoul was selected as a case study.
+
+
+This chapter firstly explores the pollution data in different time sequences and types of monitoring stations.
+Then it compares two spatial interpolation methods, Universal Kriging, GAM, with additional weights on road layers as an effect of roadside pollution fields. 
+After the calibration and validation, this chapter finally discusses issues relevant to interpolation methods and health effects.
+
+
+## Data list
+
+
+## What the data looks like: Exploration with R
+
+
+## Output: Univeral Kriging 
+
+
+## Output: Generalised Additive Models
+
+
+## Summary
+
+
+
+
+
+
