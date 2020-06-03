@@ -1,7 +1,41 @@
-# Applications
+# Exposure to Traffic-related Air Pollution in Central Seoul using an agent-based framework
 
-Some _significant_ applications are demonstrated in this chapter.
+**What does this study investigate?**
 
-## Example one
+This chapter examined the cumulative exposure to non-exhuast PM\textsubscript{10} of subway commuters and resident drivers to see whether traffic-related particles negatively contribute to the air quality and human health. 
+Compared to the previous study, this chapter demonstrates pollution and individual mobility at a finer scale, investigating health decline associated with instantaneous PM~10~.
+This study applies vehicle mobility, human mobility, exposure and health loss 
 
-## Example two
+
+## Data list
+### Air Pollution
+Hourly measured PM~10~ was used from an urban background station, *Jongno*, and a kerbside station Jongno4. 
+The study period was set between January-March 2018, as it is frequent to observe the severity of health effects attributed to high air pollution exposure.
+Data cleaning, descriptive statistics, and visualisation were done under the `tidyverse` package in R 4.0.0.
+
+### Annual Traffic Count
+- KTDB
+
+### Origin-Destination Matrix
+This study used the mode-based origin-destination (OD) matrix from the Korean Transport database (KTDB). 
+KTDB provides 15 modes that include walking, passenger car, carpooled people, city bus, regional bus, town bus, intercity bus, express bus, other buses, subway, rail, speed rail, taxi, small freight, large freight, motorbike, bicycle, and others. 
+The 2015 database provides three type of OD matrix based on weekdays, which are morning rush hours (07-09 hours), evening rush hours (18-20 hours), and a daily aggregate.
+
+
+The database also estimates passengers per vehicle type and distance by regions.
+Seoul allocated 1.42 persons for inbound passenger cars travelling and 1.33 persons for outbound; each taxi has 1.47 persons; each city bus has 19.27 persons, intercity bus with 13.48 persons, and regional bus with 19.02 persons.
+Each row gives an origin and destination areas based on the admin codes and all the modes as an approximated number. For example, passenger cars from Sajik to Sajik will have 539.008 persons travelling per day.
+
+
+
+## What the data looks like: Exploration with R
+
+
+## Output: Univeral Kriging 
+
+
+## Output: Generalised Additive Models
+
+
+## Summary
+
