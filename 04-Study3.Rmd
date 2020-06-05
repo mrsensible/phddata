@@ -16,7 +16,8 @@ To achieve the aim, this study applies models such as vehicle mobility, human mo
 
 ### Air Pollution
 Hourly measured PM~10~ was used from an urban background station, *Jongno*, and a kerbside station *Jongno4*. 
-The study period was set between January-March 2018, as the mortality rate attributed to high air pollution exposure was observed during winter.
+The study period was set between January-March 2018, because ambient pollutant levels during winter tend to be higher compared to the rest of the year due to stable atmospheric conditions and more generation of domestic heat [(Guram et al., 2019)](https://www.sciencedirect.com/science/article/pii/S019897151830156X#f0015).
+
 
 <!-- PM~10~ -->
 
