@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 Comparison of Spatial Interpolation Methods for the Estimation of Seoul’s Air Pollution | Ph.D Thesis Data Catalogue</title>
+  <meta name="description" content="This webpage contains all the open source data used for my doctoral thesis" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 Comparison of Spatial Interpolation Methods for the Estimation of Seoul’s Air Pollution | Ph.D Thesis Data Catalogue" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This webpage contains all the open source data used for my doctoral thesis" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Comparison of Spatial Interpolation Methods for the Estimation of Seoul’s Air Pollution | Ph.D Thesis Data Catalogue" />
+  
+  <meta name="twitter:description" content="This webpage contains all the open source data used for my doctoral thesis" />
+  
+
+<meta name="author" content="Hyesop Shin" />
+
+
+<meta name="date" content="2021-01-25" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="intro.html"/>
+<link rel="next" href="methods.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Hyesop Shin PhD Data Catalogue</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Before we start</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="study1.html"><a href="study1.html"><i class="fa fa-check"></i><b>2</b> Comparison of Spatial Interpolation Methods for the Estimation of Seoul’s Air Pollution</a><ul>
+<li class="chapter" data-level="2.1" data-path="study1.html"><a href="study1.html#data-list"><i class="fa fa-check"></i><b>2.1</b> Data list</a></li>
+<li class="chapter" data-level="2.2" data-path="study1.html"><a href="study1.html#what-the-data-looks-like-exploration-with-r"><i class="fa fa-check"></i><b>2.2</b> What the data looks like: Exploration with R</a></li>
+<li class="chapter" data-level="2.3" data-path="study1.html"><a href="study1.html#output-univeral-kriging"><i class="fa fa-check"></i><b>2.3</b> Output: Univeral Kriging</a></li>
+<li class="chapter" data-level="2.4" data-path="study1.html"><a href="study1.html#output-generalised-additive-models"><i class="fa fa-check"></i><b>2.4</b> Output: Generalised Additive Models</a></li>
+<li class="chapter" data-level="2.5" data-path="study1.html"><a href="study1.html#summary"><i class="fa fa-check"></i><b>2.5</b> Summary</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>3</b> Methods</a></li>
+<li class="chapter" data-level="4" data-path="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html"><a href="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html"><i class="fa fa-check"></i><b>4</b> Exposure to Traffic-related Air Pollution in Central Seoul using an agent-based framework</a><ul>
+<li class="chapter" data-level="4.1" data-path="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html"><a href="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html#data-list-1"><i class="fa fa-check"></i><b>4.1</b> Data list</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html"><a href="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html#air-pollution"><i class="fa fa-check"></i><b>4.1.1</b> Air Pollution</a></li>
+<li class="chapter" data-level="4.1.2" data-path="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html"><a href="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html#traffic-count"><i class="fa fa-check"></i><b>4.1.2</b> Traffic Count</a></li>
+<li class="chapter" data-level="4.1.3" data-path="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html"><a href="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html#origin-destination-matrix"><i class="fa fa-check"></i><b>4.1.3</b> Origin-Destination Matrix</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html"><a href="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html#what-the-data-looks-like-exploration-with-r-1"><i class="fa fa-check"></i><b>4.2</b> What the data looks like: Exploration with R</a></li>
+<li class="chapter" data-level="4.3" data-path="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html"><a href="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html#output-univeral-kriging-1"><i class="fa fa-check"></i><b>4.3</b> Output: Univeral Kriging</a></li>
+<li class="chapter" data-level="4.4" data-path="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html"><a href="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html#output-generalised-additive-models-1"><i class="fa fa-check"></i><b>4.4</b> Output: Generalised Additive Models</a></li>
+<li class="chapter" data-level="4.5" data-path="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html"><a href="exposure-to-traffic-related-air-pollution-in-central-seoul-using-an-agent-based-framework.html#summary-1"><i class="fa fa-check"></i><b>4.5</b> Summary</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>5</b> Final Words</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/mrsensible/phddata" target="blank">Visit Repository for Enquiries</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Ph.D Thesis Data Catalogue</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="study1" class="section level1">
+<h1><span class="header-section-number">Chapter 2</span> Comparison of Spatial Interpolation Methods for the Estimation of Seoul’s Air Pollution</h1>
+<p><strong>Overview</strong></p>
+<p>Understanding the association between pollution exposure and the deleterious effect on population health is a vital precursor for modelling.
+This chapter initially argues that the comparison amongst methods should not merely conclude with error measurements but should add more information on the difference; secondly argues that finer temporal scale is needed in pollution studies due to human mobility and daily and seasonal dynamics of pollution.
+Hence, this chapter aims to compare spatial interpolation methods that can support population exposure to daily air pollution.
+Seoul was selected as a case study.</p>
+<p>This chapter firstly explores the pollution data in different time sequences and types of monitoring stations.
+Then it compares two spatial interpolation methods, Universal Kriging, GAM, with additional weights on road layers as an effect of roadside pollution fields.
+After the calibration and validation, this chapter finally discusses issues relevant to interpolation methods and health effects.</p>
+<div id="data-list" class="section level2">
+<h2><span class="header-section-number">2.1</span> Data list</h2>
+</div>
+<div id="what-the-data-looks-like-exploration-with-r" class="section level2">
+<h2><span class="header-section-number">2.2</span> What the data looks like: Exploration with R</h2>
+</div>
+<div id="output-univeral-kriging" class="section level2">
+<h2><span class="header-section-number">2.3</span> Output: Univeral Kriging</h2>
+</div>
+<div id="output-generalised-additive-models" class="section level2">
+<h2><span class="header-section-number">2.4</span> Output: Generalised Additive Models</h2>
+</div>
+<div id="summary" class="section level2">
+<h2><span class="header-section-number">2.5</span> Summary</h2>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="intro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="methods.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
