@@ -22,4 +22,4 @@ I am writing this document because all the data that I retrieved were `free-to-u
 
 
 **Further Enquiries** <br>
-If you have any enquiries regarding the data or the results, please contact me via github(`@mrsensible`), twitter(`@hyesop`), or email(hyesop.shin@glasgow.ac.uk).
+If you have any enquiries regarding the data or the results, please contact me via github (https://www.github.com/mrsensible), twitter (`@hyesop`), or email (hyesop.shin@glasgow.ac.uk).

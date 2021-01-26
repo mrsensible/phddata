@@ -1,10 +1,5 @@
 # Introduction {#intro}
 
-<!--
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
-
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
--->
 
 
 ```{r worldpm25, echo=FALSE, fig.cap="Estimated 2013 annual average of PM~2.5~ in the troposphere as detected by the grid cell average of satellite-based estimates from the TM5-FASST simulation. (imported from @Brauer2016)", out.width = '100%'}

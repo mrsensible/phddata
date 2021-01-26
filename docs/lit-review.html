@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 3 Comparison of Spatial Interpolation Methods for the Estimation of Seoul’s Air Pollution | Ph.D Thesis Data Catalogue</title>
+  <title>Chapter 2 Literature Review | Ph.D Thesis Data Catalogue</title>
   <meta name="description" content="This webpage contains all the open source data used for my doctoral thesis" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 3 Comparison of Spatial Interpolation Methods for the Estimation of Seoul’s Air Pollution | Ph.D Thesis Data Catalogue" />
+  <meta property="og:title" content="Chapter 2 Literature Review | Ph.D Thesis Data Catalogue" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 3 Comparison of Spatial Interpolation Methods for the Estimation of Seoul’s Air Pollution | Ph.D Thesis Data Catalogue" />
+  <meta name="twitter:title" content="Chapter 2 Literature Review | Ph.D Thesis Data Catalogue" />
   
   <meta name="twitter:description" content="This webpage contains all the open source data used for my doctoral thesis" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="lit-review.html"/>
-<link rel="next" href="methods.html"/>
+<link rel="prev" href="intro.html"/>
+<link rel="next" href="study1.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -115,36 +115,20 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="study1" class="section level1">
-<h1><span class="header-section-number">Chapter 3</span> Comparison of Spatial Interpolation Methods for the Estimation of Seoul’s Air Pollution</h1>
-<p><strong>Overview</strong></p>
-<p>This chapter firstly explores the pollution data in different time sequences and types of monitoring stations.
-Then it compares two spatial interpolation methods, Universal Kriging, GAM, with additional weights on road layers as an effect of roadside pollution fields.
-After the calibration and validation, this chapter finally discusses issues relevant to interpolation methods and health effects.</p>
-<div id="data-list" class="section level2">
-<h2><span class="header-section-number">3.1</span> Data list</h2>
-<p>This chapter explores the spatial and temporal patterns of pollution in Seoul as well as the extent to which background and roadside stations are similar or different. The NIER (National Institute of Environmental Research) provided 6 pollutants, PM<sub>10</sub>, PM<sub>2.5</sub>, NO<sub>2</sub>, CO, SO<sub>2</sub>, O<sub>3</sub>, which were released as an hourly aggregation. This study selected PM<sub>10</sub> as the main source that can causally result in human cancer and NO<sub>2</sub> as the main source that harms respiratory symptoms, whether constantly or instantaneously <span class="citation">(Europe <a href="#ref-WHO2013" role="doc-biblioref">2013</a>)</span>.</p>
-<p>Pollution data were collected from two different types of stations: background stations (installed on the rooftops of district offices), and roadside stations (close to the major roads which are strongly affected by nearby traffic). This study took into account 57 urban background stations and 19 roadside stations that were within 10km from the city boundary (see Figure~@refpollution_stations).
-Amongst these 76 stations, Seoul itself had 25 background stations and 15 roadside stations. Roadside data were retrieved from the 19 stations installed on the roads near the city centre, 8-lane junctions, and a highway entrance. The possible download period was between 01/01/2010 01:00 and 01/01/2018 00:00. Units are measured in ppb (parts per billion) for NO<sub>2</sub>, and µg/m<sup>3</sup> for PM<sub>10</sub>.</p>
-</div>
-<div id="what-the-data-looks-like-exploration-with-r" class="section level2">
-<h2><span class="header-section-number">3.2</span> What the data looks like: Exploration with R</h2>
-</div>
-<div id="output-univeral-kriging" class="section level2">
-<h2><span class="header-section-number">3.3</span> Output: Univeral Kriging</h2>
-</div>
-<div id="output-generalised-additive-models" class="section level2">
-<h2><span class="header-section-number">3.4</span> Output: Generalised Additive Models</h2>
-</div>
-<div id="summary-1" class="section level2">
-<h2><span class="header-section-number">3.5</span> Summary</h2>
+<div id="lit_review" class="section level1">
+<h1><span class="header-section-number">Chapter 2</span> Literature Review</h1>
+<div id="summary" class="section level2">
+<h2><span class="header-section-number">2.1</span> Summary</h2>
+<ul>
+<li><p>I have looked though different types of pollutants that can harm human health.</p></li>
+<li><p>This study chose PM<sub>10</sub> and NO<sub>2</sub> for the empirical chapters.</p></li>
+<li><p>This study contextualised the association between pollution, exposure, and health risk, and how sensitivity and adaptation can change the patterns of exposure.</p></li>
+<li><p>Exposure studies are categorised into population exposure and individual exposure. And this normally is tied with the method used. This study reviewed spatial interpolation and dispersion models, and criticised that using a static population does not fully account for the temporal variability that individuals might experience; using spatially poor station levels too does not consider the small-scale variability that can happen in the real world.</p></li>
+<li><p>OD matrices have filled the gaps of activity patterns to some extent but have not been able to consider the routes to which the individuals take every day. Mobile phone data cannot trace individual data due to privacy issues, and the representation of users strongly depends on the mobile company within the country. Low-cost sensors and GPS signals have shown minute based trajectories and pollution levels at human height; however, these have shortness of battery problems and a number of participants to test different routes.</p></li>
+<li><p>ABMs can be an alternative to the above methods as they can evaluate population exposure for all heterogeneous agents, conduct short or long-term simulation studies that can take up to a decade, assign cognitive decisions for an individual’s pathfinding, and experiment with scenarios that might happen in the future. However, this too is a model that takes into account many assumptions, and constructing an ABM taking into account all the individual attributes takes a long time until completion (approximately two years). With huge output files, it might also need to be subsetted and restructured to produce the results with the computer memory secured.</p></li>
+<li><p>Published studies of Sydney have introduced a pollution dispersion model and a dose-response model to estimate the health risk of air pollution. Using a static population and a coarse resolution oversimplified the result. A more recent study in Tampa used a microscopic simulation method that considered traffic, pollution and population activity to assess the uneven distribution of NO<sub>2</sub> exposure across the city. However, the execution period was too short (one day) to determine the effect of socioeconomic factors.</p></li>
+</ul>
 
-</div>
-</div>
-<h3>References</h3>
-<div id="refs" class="references">
-<div id="ref-WHO2013">
-<p>Europe, WHO. 2013. “Proximity to roads, NO2, other air pollutants and their mixtures.” In <em>Review of Evidence on Health Aspects of Air Pollution–Revihaap Project: Technical Report [Internet]</em>. WHO Regional Office for Europe.</p>
 </div>
 </div>
             </section>
@@ -152,8 +136,8 @@ Amongst these 76 stations, Seoul itself had 25 background stations and 15 roadsi
           </div>
         </div>
       </div>
-<a href="lit-review.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="methods.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="intro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="study1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

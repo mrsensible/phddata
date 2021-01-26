@@ -21,3 +21,6 @@ output-univeral-kriging-1
 output-generalised-additive-models-1
 summary-1
 final-words
+lit_review
+summary-2
+comparison-of-spatial-interpolation-methods-for-the-estimation-of-seouls-air-pollution-study1
