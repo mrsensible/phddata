@@ -1,18 +1,30 @@
 # Literature Review {#lit_review}
-## Summary
-* I have looked though different types of pollutants that can harm human health.
 
-* This study chose PM~10~ and NO~2~ for the empirical chapters.
+## Pollutants
+* In Chapter 2, I have looked though different types of pollutants that can harm human health.
+
+* Chapter 2 chose PM~10~ and NO~2~ for the empirical chapters.
     
-* This study contextualised the association between pollution, exposure, and health risk, and how sensitivity and adaptation can change the patterns of exposure.
+* Chapter 2 contextualised the association between pollution, exposure, and health risk, and how sensitivity and adaptation can change the patterns of exposure.
+
+## Exposure Studies: Models
+
+* Exposure studies are categorised into population exposure and individual exposure. And this normally is tied with the method used. 
+
+* Chapter 2 reviewed spatial interpolation and dispersion models, and criticised that using a static population does not fully account for the temporal variability that individuals might experience; using spatially poor station levels too does not consider the small-scale variability that can happen in the real world.
     
-* Exposure studies are categorised into population exposure and individual exposure. And this normally is tied with the method used. This study reviewed spatial interpolation and dispersion models, and criticised that using a static population does not fully account for the temporal variability that individuals might experience; using spatially poor station levels too does not consider the small-scale variability that can happen in the real world.
-    
-* OD matrices have filled the gaps of activity patterns to some extent but have not been able to consider the routes to which the individuals take every day. Mobile phone data cannot trace individual data due to privacy issues, and the representation of users strongly depends on the mobile company within the country. Low-cost sensors and GPS signals have shown minute based trajectories and pollution levels at human height; however, these have shortness of battery problems and a number of participants to test different routes.
-    
-* ABMs can be an alternative to the above methods as they can evaluate population exposure for all heterogeneous agents, conduct short or long-term simulation studies that can take up to a decade, assign cognitive decisions for an individual’s pathfinding, and experiment with scenarios that might happen in the future. However, this too is a model that takes into account many assumptions, and constructing an ABM taking into account all the individual attributes takes a long time until completion (approximately two years). With huge output files, it might also need to be subsetted and restructured to produce the results with the computer memory secured.
-    
-* Published studies of Sydney have introduced a pollution dispersion model and a dose-response model to estimate the health risk of air pollution. Using a static population and a coarse resolution oversimplified the result. A more recent study in Tampa used a microscopic simulation method that considered traffic, pollution and population activity to assess the uneven distribution of NO~2~ exposure across the city. However, the execution period was too short (one day) to determine the effect of socioeconomic factors. 
+* Activity Patterns and Exposure
+    - OD matrices have filled the gaps of activity patterns to some extent but have not been able to consider the routes to which the individuals take every day. 
+    - Mobile phone data cannot trace individual data due to privacy issues, and the representation of users strongly depends on the mobile company within the country. 
+    - Low-cost sensors and GPS signals have shown minute based trajectories and pollution levels at human height
+    - However, these have shortness of battery problems and a number of participants to test different routes.
+
+
+## Agent-based models    
+* ABMs can be an alternative to the above methods as they can evaluate population exposure for all heterogeneous agents, conduct short or long-term simulation studies that can take up to a decade, assign cognitive decisions for an individual’s pathfinding, and experiment with scenarios that might happen in the future. 
+* However, this too is a model that takes into account many assumptions, and constructing an ABM taking into account all the individual attributes takes a long time until completion (approximately two years). 
+* With huge output files, it might also need to be subsetted and restructured to produce the results with the computer memory secured.
+* Published studies of Sydney [@Dons2014] have introduced a pollution dispersion model and a dose-response model to estimate the health risk of air pollution. Using a static population and a coarse resolution oversimplified the result. A more recent study in Tampa [@Gurram2019] used a microscopic simulation method that considered traffic, pollution and population activity to assess the uneven distribution of NO~2~ exposure across the city. However, the execution period was too short (one day) to determine the effect of socioeconomic factors. 
 
 
 

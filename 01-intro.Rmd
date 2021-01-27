@@ -1,17 +1,43 @@
 # Introduction {#intro}
 
+## Background
+
+Health outcomes related to urban air pollution exposure is an ongoing problem which needs to be investigated both at a micro and macro scale [@Caplin2019; @Reames2019]. 
+
+
+Until recently, tracking individuals for a continuous amount of time was almost impossible, and even where it is now possible, one may run into problems with devices needing continuous power. Even if individual tracking can be monitored, it may take around 30 years to get a meaningful causation between exposure and health outcomes over a large segment of the population, with diverse individual characteristics. Without individual measuring devices, the interpolated pollution fields with sparse fixed-site monitors cannot be meaningfully interpolated down to the individual scale. Another problem of large and smoothed interpolation is that it might ignore the spatial and temporal peaks of pollution that might be vital to health outcomes (see Figure \@ref(fig:worldpm25) as an example). Consequently, there remains a mismatch between the large scale of interpolated mapping analysis and the individuals being exposed to air pollution from their activity patterns.
 
 
 ```{r worldpm25, echo=FALSE, fig.cap="Estimated 2013 annual average of PM~2.5~ in the troposphere as detected by the grid cell average of satellite-based estimates from the TM5-FASST simulation. (imported from @Brauer2016)", out.width = '100%'}
 knitr::include_graphics("Figures/Chapter1/PM2_5World.png")
 ```
 
+## Purpose
+
+The overall purpose of this study is to estimate how health vulnerability from an unequal distribution of individuals can be affected by air pollution in the case of Seoul, South Korea. These results will provide new insights for suggesting a reduction policy for the population’s future exposure. 
+
+<br>
+
+**Research Questions**
+
+* How can vulnerability to air pollution be conceptualised to take in the full account of exposure and sensitivity? <br>
+* What do spatial and temporal trends of pollution reveal about its distribution and how can the methods be used to estimate pollution on a large urban space? <br>
+* How does the response pattern from pollution vary between population groups and how does it appear on the geographical landscape after applying an agent-based model? <br>
+* What do GIS and agent-based modelling scenarios suggest for the case-study city about future patterns of risk and the need for interventions, e.g. in terms of protection and support? <br>
+
+
+## Study Area
+
+* Chapter 3: Seoul and adjacent cities
+* Chapter 4: Seoul by districts
+* Chapter 5: Seoul CBD (Central Business District)
 
 ```{r seoulmap, echo=FALSE, fig.cap="Basemap (A) and Topography (B) of Seoul", out.width = '100%'}
 knitr::include_graphics("Figures/Chapter1/seoul.png")
 ```
 
 
+<!--
 ```{r emission, echo=FALSE, fig.cap="Annual Amount of Pollution Emission in Seoul (Units: Tonnes/Year(s))", out.width = '100%'}
 knitr::include_graphics("Figures/Chapter1/PollutionEmission.png")
 ```
@@ -25,3 +51,4 @@ knitr::include_graphics("Figures/Chapter1/PollutionEmission_bysources.png")
 ```{r vehicles, echo=FALSE, fig.cap="Total Vehicles in Seoul 2016 by fuel types", out.width = '100%'}
 knitr::include_graphics("Figures/Chapter1/totalvehicles.png")
 ```
+-->
